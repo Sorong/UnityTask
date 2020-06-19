@@ -8,7 +8,13 @@ public class CurveWalker : MonoBehaviour
 
     public float CurrentInterpolation { get; private set; }
 
-    public bool StartCurveWalk { get; set; }
+    public ParticleSystem ParticleSystem { get; private set; }
+
+    public AudioSource AudioSource { get; private set; }
+    public AudioClip AudioClip { get; private set; }
+
+    public bool IsStarted { get; private set; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,17 +24,19 @@ public class CurveWalker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (StartCurveWalk)
+        if (IsStarted)
         {
-            this.transform.Rotate(new Vector3(-5, -5, 0));
+            transform.Rotate(new Vector3(-5, -5, 0));
+            ParticleSystem.transform.Rotate(new Vector3(+5, +5, 0));
             if (CurrentInterpolation >= 1)
             {
                 CurrentInterpolation = 1f;
-                this.StartCurveWalk = false;
+                IsStarted = false;
+                ParticleSystem.Stop();
             }
-            this.transform.localPosition = Evaluate(CurrentInterpolation);
+            transform.localPosition = Evaluate(CurrentInterpolation);
             
-            CurrentInterpolation += 0.01f;
+            CurrentInterpolation += 0.005f;
 
         }
     }
@@ -70,5 +78,25 @@ public class CurveWalker : MonoBehaviour
         if (n <= 1) { return 1; }
 
         return n * Factorial(n - 1);
+    }
+
+    public void StartWalk(ParticleSystem particleSystem, AudioSource audioSource, AudioClip clip)
+    {
+        if (particleSystem != null)
+        {
+            particleSystem.transform.SetParent(transform);
+            particleSystem.transform.localPosition = Vector3.zero;
+            particleSystem.transform.localScale = Vector3.one * 0.5f;
+            ParticleSystem = particleSystem;
+            //particleSystem.Play();
+        }
+        IsStarted = true;
+        if (clip != null && audioSource != null)
+        {
+            //audioSource.PlayOneShot(clip);
+            audioSource.PlayOneShot(clip, 0.2f);
+        }
+
+        AudioSource = audioSource;
     }
 }

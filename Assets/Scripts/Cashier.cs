@@ -68,8 +68,9 @@ public class Cashier : MonoBehaviour
                     price += items[i].Price;
                 }
 
-                outString += string.Format("Total price: {0} €", price);
+                
             }
+            outString += string.Format("Total price: {0} €", price);
         }
 
         if (isEmpty)

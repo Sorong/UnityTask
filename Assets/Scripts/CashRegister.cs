@@ -18,6 +18,12 @@ public class CashRegister : MonoBehaviour
     [SerializeField]
     private Transform _itemArea;
 
+    [SerializeField]
+    private ParticleSystem _particleObject;
+
+    [SerializeField]
+    private AudioClip _audioClip;
+
 
     private List<Item> items = new List<Item>();
 
@@ -62,8 +68,9 @@ public class CashRegister : MonoBehaviour
                 //zero = items[_itemCount - 1].transform.localPosition;
             }
 
-            Item newItem = Instantiate(item, item.transform.position + offsetX, Quaternion.identity, _itemArea);
+            Item newItem = Instantiate(item, item.transform.position + offsetX, Quaternion.identity, _itemArea);            
             CurveWalker walker = newItem.gameObject.AddComponent<CurveWalker>();
+            
             Vector3 start = newItem.transform.localPosition;
             Vector3 end = PreviousPosition + offsetX;
             walker.ControlPoints = new List<Vector3>()
@@ -74,12 +81,11 @@ public class CashRegister : MonoBehaviour
                 end
             };
             PreviousPosition += offsetX;
-            walker.StartCurveWalk = true;
+
+            walker.StartWalk(Instantiate(_particleObject), walker.gameObject.AddComponent<AudioSource>(), _audioClip);
             items.Add(newItem);
             _itemCount++;
         }
-
-
     }
 
     private void OnMouseDown()
