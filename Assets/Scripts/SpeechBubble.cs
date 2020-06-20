@@ -48,8 +48,7 @@ public class SpeechBubble : MonoBehaviour
         //float eulerY = lookRot.eulerAngles.y;
         //Quaternion rotation = Quaternion.Euler(0, eulerY, 0);
         //transform.rotation = rotation;
-
-        //transform.rotation = Quaternion.LookRotation(transform.position - Camera.main.transform.position);
+        transform.rotation = Quaternion.LookRotation(transform.position - Camera.main.transform.position);
     }
 
     public void Show()

@@ -27,8 +27,6 @@ public class CashRegister : MonoBehaviour
 
     private List<Item> items = new List<Item>();
 
-    private int _itemCount = 0;
-
     private Vector3 PreviousPosition = Vector3.zero;
 
     // Start is called before the first frame update
@@ -56,18 +54,10 @@ public class CashRegister : MonoBehaviour
 
     public void AddItem(Item item)
     {
-        if (_itemCount < MaxItems)
+        if (items.Count < MaxItems)
         {
 
-            Vector3 offsetX = Vector3.zero;
-            if (_itemCount > 0)
-            {
-                Bounds prevBounds = items[_itemCount - 1].Mesh.mesh.bounds;
-                Bounds currentBounds = item.Mesh.mesh.bounds;
-                offsetX = new Vector3(prevBounds.extents.x + currentBounds.extents.x + ItemGap, 0, 0);
-                //zero = items[_itemCount - 1].transform.localPosition;
-            }
-
+            Vector3 offsetX = CalcItemOffsetX(items.Count > 0 ? items[items.Count - 1] : null, item);
             Item newItem = Instantiate(item, item.transform.position + offsetX, Quaternion.identity, _itemArea);            
             CurveWalker walker = newItem.gameObject.AddComponent<CurveWalker>();
             
@@ -84,10 +74,23 @@ public class CashRegister : MonoBehaviour
 
             walker.StartWalk(Instantiate(_particleObject), walker.gameObject.AddComponent<AudioSource>(), _audioClip);
             items.Add(newItem);
-            _itemCount++;
         }
     }
 
+    private Vector3 CalcItemOffsetX(Item previousItem, Item currentItem)
+    {
+        Vector3 offset = Vector3.zero;
+        if (previousItem != null && currentItem != null)
+        {
+            var xExtentPrev = previousItem.Mesh.mesh.bounds.extents.x;
+            var xScalePrev = previousItem.transform.localScale.x;
+            var xExtentCurrent = currentItem.Mesh.mesh.bounds.extents.x;
+            var xScaleCurrent = currentItem.transform.localScale.x;
+            offset = new Vector3(xExtentPrev * xScalePrev + xExtentCurrent * xScaleCurrent + ItemGap, 0, 0);
+        }
+
+        return offset;
+    }
     private void OnMouseDown()
     {
         if (OnClick != null)
