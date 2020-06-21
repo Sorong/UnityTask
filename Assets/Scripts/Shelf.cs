@@ -7,6 +7,9 @@ public class Shelf : MonoBehaviour
     [SerializeField]
     private GameObject _ShelfItems;
 
+    [SerializeField]
+    private List<Item> _otherItems;
+
     public delegate void OnClickCallback(Item item);
 
     public OnClickCallback OnClick;
@@ -20,6 +23,17 @@ public class Shelf : MonoBehaviour
             if (items != null)
             {
                 foreach (var item in items)
+                {
+                    item.OnClick += OnItemClick;
+                }
+            }
+        }
+
+        if (_otherItems != null)
+        {
+            foreach (var item in _otherItems)
+            {
+                if (item != null)
                 {
                     item.OnClick += OnItemClick;
                 }

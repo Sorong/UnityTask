@@ -58,7 +58,8 @@ public class CashRegister : MonoBehaviour
         {
 
             Vector3 offsetX = CalcItemOffsetX(items.Count > 0 ? items[items.Count - 1] : null, item);
-            Item newItem = Instantiate(item, item.transform.position + offsetX, Quaternion.identity, _itemArea);            
+            Item newItem = Instantiate(item, item.transform.position + offsetX, Quaternion.identity, _itemArea);
+            newItem.transform.rotation = item.transform.rotation;
             CurveWalker walker = newItem.gameObject.AddComponent<CurveWalker>();
             
             Vector3 start = newItem.transform.localPosition;

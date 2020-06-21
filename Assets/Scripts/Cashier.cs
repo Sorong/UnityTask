@@ -46,38 +46,11 @@ public class Cashier : MonoBehaviour
         if (_animator != null)
         {
             _animator.SetTrigger("Wave");
-            //_animator.Play("Wave");
         }
-       //Todo: Wave
     }
+
     public void CashRegisterClicked(List<Item> items)
     {
-        //string outString = "Hello, ";
-        //bool isEmpty = true;
-        //if (items != null)
-        //{
-        //    outString += "do you want to buy: \n";
-        //    float price = 0f;
-            
-        //    for (int i = 0; i < items.Count; i++)
-        //    {
-        //        if (items[i] != null)
-        //        {
-        //            isEmpty = false;
-        //            outString += string.Format("one {0} for {1} €\n", items[i].Name, items[i].Price);
-        //            price += items[i].Price;
-        //        }
-
-                
-        //    }
-        //    outString += string.Format("Total price: {0} €", price);
-        //}
-
-        //if (isEmpty)
-        //{
-        //    outString = "Hello, how can i help you?";
-        //}
-
         if (_speechBubble != null)
         {
             _speechBubble.Text = BuildStringFromItems(items);
@@ -112,10 +85,10 @@ public class Cashier : MonoBehaviour
         {
             var itemCount = itemDictionary[itemName];
             totalPrice += itemCount.price;
-            outString += string.Format("{0}x {1}: \t\t{2:0.00}€\n", itemCount.count, itemName, itemCount.price);
+            outString += string.Format("{0}x {1}: {2:0.00}€\n", itemCount.count, itemName, itemCount.price);
         }
 
-        outString += string.Format("Total price: \t\t{0:0.00}€\n", totalPrice);
+        outString += string.Format("Total price: {0:0.00}€\n", totalPrice);
 
         return "Hello, do you want to buy: \n" + outString;
     }

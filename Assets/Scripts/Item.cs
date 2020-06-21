@@ -16,16 +16,26 @@ public class Item : MonoBehaviour
     [SerializeField]
     private float _price;
 
+    [SerializeField]
+    private MeshFilter _mesh;
+
     public string Name => _name;
 
     public float Price => (float) Math.Round(_price, 2);
 
-    public MeshFilter Mesh { get; private set; }
+    public MeshFilter Mesh
+    {
+        get => _mesh;
+        private set => _mesh = value;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        Mesh = GetComponent<MeshFilter>();
+        if (Mesh == null)
+        {
+            Mesh = GetComponent<MeshFilter>();
+        }
     }
 
     // Update is called once per frame

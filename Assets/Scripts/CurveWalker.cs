@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CurveWalker : MonoBehaviour
-{    
+{
+    private const float StepSize = 0.005f;
+    private const int Rotations = 1;
     public List<Vector3> ControlPoints { get; set;}
 
     public float CurrentInterpolation { get; private set; }
@@ -22,21 +24,28 @@ public class CurveWalker : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (IsStarted)
         {
-            transform.Rotate(new Vector3(-5, -5, 0));
-            ParticleSystem.transform.Rotate(new Vector3(+5, +5, 0));
+            var rotAngle = Rotations *  360 * StepSize;
+            
+            ParticleSystem.transform.Rotate(new Vector3(rotAngle, rotAngle, 0));
             if (CurrentInterpolation >= 1)
             {
                 CurrentInterpolation = 1f;
                 IsStarted = false;
                 ParticleSystem.Stop();
             }
+            else
+            {
+                transform.Rotate(-rotAngle, 0f, 0f, Space.Self);
+                transform.Rotate(0f, -rotAngle, 0f, Space.World);
+                
+            }
             transform.localPosition = Evaluate(CurrentInterpolation);
-            
-            CurrentInterpolation += 0.005f;
+
+            CurrentInterpolation += StepSize;
 
         }
     }

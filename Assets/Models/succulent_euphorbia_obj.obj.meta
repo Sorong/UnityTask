@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: cc8d312a04d55be46978efbef119994a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: succulent_euphorbia
+    100002: //RootNode
+    400000: succulent_euphorbia
+    400002: //RootNode
+    2100000: succulent_euphorbia_mtl_1
+    2100002: succulent_euphorbia_mtl_4
+    2100004: succulent_euphorbia_mtl_7
+    2100006: succulent_euphorbia_mtl_2
+    2100008: succulent_euphorbia_mtl_28
+    2100010: succulent_euphorbia_mtl_40
+    2100012: succulent_euphorbia_mtl_26
+    2100014: succulent_euphorbia_mtl_20
+    2100016: succulent_euphorbia_mtl_8
+    2100018: succulent_euphorbia_mtl_64
+    2100020: succulent_euphorbia_mtl_65
+    2100022: succulent_euphorbia_mtl_18
+    2100024: succulent_euphorbia_mtl_13
+    2100026: succulent_euphorbia_mtl_22
+    2100028: succulent_euphorbia_mtl_23
+    2100030: succulent_euphorbia_mtl_25
+    2100032: succulent_euphorbia_mtl_19
+    2100034: succulent_euphorbia_mtl_5
+    2100036: succulent_euphorbia_mtl_9
+    2100038: succulent_euphorbia_mtl_16
+    2100040: succulent_euphorbia_mtl_10
+    2100042: succulent_euphorbia_mtl_15
+    2100044: succulent_euphorbia_mtl_6
+    2100046: succulent_euphorbia_mtl_21
+    2100048: succulent_euphorbia_mtl_11
+    2100050: succulent_euphorbia_mtl_14
+    2100052: succulent_euphorbia_mtl_17
+    2100054: succulent_euphorbia_mtl_3
+    2100056: succulent_euphorbia_mtl_12
+    2100058: succulent_euphorbia_mtl_24
+    2100060: succulent_euphorbia_mtl_54
+    2100062: succulent_euphorbia_mtl_56
+    2100064: succulent_euphorbia_mtl_50
+    2100066: succulent_euphorbia_mtl_48
+    2100068: succulent_euphorbia_mtl_43
+    2100070: succulent_euphorbia_mtl_55
+    2100072: succulent_euphorbia_mtl_46
+    2100074: succulent_euphorbia_mtl_45
+    2100076: succulent_euphorbia_mtl_53
+    2100078: succulent_euphorbia_mtl_57
+    2100080: succulent_euphorbia_mtl_51
+    2100082: succulent_euphorbia_mtl_60
+    2100084: succulent_euphorbia_mtl_41
+    2100086: succulent_euphorbia_mtl_42
+    2100088: succulent_euphorbia_mtl_49
+    2100090: succulent_euphorbia_mtl_52
+    2100092: succulent_euphorbia_mtl_58
+    2100094: succulent_euphorbia_mtl_59
+    2100096: succulent_euphorbia_mtl_31
+    2100098: succulent_euphorbia_mtl_30
+    2100100: succulent_euphorbia_mtl_27
+    2100102: succulent_euphorbia_mtl_29
+    2100104: succulent_euphorbia_mtl_34
+    2100106: succulent_euphorbia_mtl_33
+    2100108: succulent_euphorbia_mtl_32
+    2100110: succulent_euphorbia_mtl_35
+    2100112: succulent_euphorbia_mtl_36
+    2100114: succulent_euphorbia_mtl_37
+    2100116: succulent_euphorbia_mtl_39
+    2100118: succulent_euphorbia_mtl_38
+    2100120: succulent_euphorbia_mtl_44
+    2100122: succulent_euphorbia_mtl_47
+    2100124: succulent_euphorbia_mtl_61
+    2100126: succulent_euphorbia_mtl_62
+    2100128: succulent_euphorbia_mtl_63
+    2300000: succulent_euphorbia
+    3300000: succulent_euphorbia
+    4300000: succulent_euphorbia
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_1
+    second: {fileID: 2100000, guid: 657fd072046b5bf4fab72d585739b755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_10
+    second: {fileID: 2100000, guid: 259a96a41eb6b404f9338b46b7947dc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_11
+    second: {fileID: 2100000, guid: fb04fb21a7967314ab3d0e3ba438a256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_12
+    second: {fileID: 2100000, guid: cf53821c7764b86408102e4187e71417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_13
+    second: {fileID: 2100000, guid: 0f848168eb652c744aa7e86ac53b1275, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_14
+    second: {fileID: 2100000, guid: afa84f88a68993e47b8e38038f467757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_15
+    second: {fileID: 2100000, guid: 6140787f7135a694891deed26a0eab56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_16
+    second: {fileID: 2100000, guid: 3613476dcbdb0c34cb0009f83c93140b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_17
+    second: {fileID: 2100000, guid: 95c64007853475f46983f548444d6293, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_18
+    second: {fileID: 2100000, guid: 944104570123cae4eaa1555f6502efc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_19
+    second: {fileID: 2100000, guid: fd2f60821a7f4ea44828897bda15430b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_2
+    second: {fileID: 2100000, guid: aa640a273948a56429e6a62b9ac107b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_20
+    second: {fileID: 2100000, guid: e2a94cf4e4c135d4fa8bb0d9f1eab807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_21
+    second: {fileID: 2100000, guid: 993404e0d5f251143884c9494f63a579, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_22
+    second: {fileID: 2100000, guid: ad18ab9def60d174ea05b19dc3fae972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_23
+    second: {fileID: 2100000, guid: 5f28ec782c3bc9842903d98b53a8f023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_24
+    second: {fileID: 2100000, guid: 1038497a1a700ae4c8ac3893c9922980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_25
+    second: {fileID: 2100000, guid: 7c45927720b78904fa145c60f2684a76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_26
+    second: {fileID: 2100000, guid: b7e352217cec51140854f7c0e682a37c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_27
+    second: {fileID: 2100000, guid: bfe44bb605d36da4ca507055c103e9d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_28
+    second: {fileID: 2100000, guid: 5538176faedfb6d4fab46a704798bd06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_29
+    second: {fileID: 2100000, guid: 756ef6eb5943d0e4dabbce5d2ea85d03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_3
+    second: {fileID: 2100000, guid: 409047adcafe9204998cf840384d924d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_30
+    second: {fileID: 2100000, guid: 1de4c9a7cc17dd9488e91dc5c155193d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_31
+    second: {fileID: 2100000, guid: 4fd098758a620ed4c9340aa153229866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_32
+    second: {fileID: 2100000, guid: 843238343e956784b9670b3738471bb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_33
+    second: {fileID: 2100000, guid: 6ff523c6ac2a8214ab744994d7f41f8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_34
+    second: {fileID: 2100000, guid: a3e96fc1fe0425b4fbab3ea81476ac8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_35
+    second: {fileID: 2100000, guid: 1ff396ba5b77b3449913ded981733c60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_36
+    second: {fileID: 2100000, guid: 2d4f1453b72e60f4c881dac5bd25694a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_37
+    second: {fileID: 2100000, guid: 95d26891ad4135a4c9907e22d3c77500, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_38
+    second: {fileID: 2100000, guid: a7321836d88ca4e4ea74c38580ae9b6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_39
+    second: {fileID: 2100000, guid: ca67e120a8ce918418091fc1f9f80015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_4
+    second: {fileID: 2100000, guid: 3ffff0cd811f8414fb169ab8e365bbff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_40
+    second: {fileID: 2100000, guid: be325a43ca8eee5429f76676dac324ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_41
+    second: {fileID: 2100000, guid: af68c4a58f998a04aa586ec4cf77d0c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_42
+    second: {fileID: 2100000, guid: ea68eddb1a6fff847b5380950bab8aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_43
+    second: {fileID: 2100000, guid: f15b2e8e714ca2a47af63f6bb6657fca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_44
+    second: {fileID: 2100000, guid: 3f8249be26a918a4daad19104e342362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_45
+    second: {fileID: 2100000, guid: aff4688d0201afc4485b1328b93b651f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_46
+    second: {fileID: 2100000, guid: 68d7e432348d05b44a291f1dddfeeb31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_47
+    second: {fileID: 2100000, guid: 66330a5f72fd8214083e5bed77cd287d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_48
+    second: {fileID: 2100000, guid: dd1b4a49a1220754ca8cf3bafe588772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_49
+    second: {fileID: 2100000, guid: 8001f34a523d79b43af0ed6a612b6302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_5
+    second: {fileID: 2100000, guid: f90ef05499811214f807682da8d330d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_50
+    second: {fileID: 2100000, guid: aa7a4eda84c14494385047fe8a204773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_51
+    second: {fileID: 2100000, guid: 0e0bdac72da620e40812da24cd4e552f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_52
+    second: {fileID: 2100000, guid: 5db12b08b8e41d244b37b91bd727331b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_53
+    second: {fileID: 2100000, guid: 7a7261e9f91e8cd40beed1409bfa1766, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_54
+    second: {fileID: 2100000, guid: b4d7e88cb1681be4c9c96456ded32974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_55
+    second: {fileID: 2100000, guid: d1ef025a40f84714da3a15aa71b9346e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_56
+    second: {fileID: 2100000, guid: 5ca64faa1a09de949955f0dc8df4ab9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_57
+    second: {fileID: 2100000, guid: 7330965235daa8844a6b7fd9e301c5bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_58
+    second: {fileID: 2100000, guid: b61da201674ba6242b4454ab20d6a3d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_59
+    second: {fileID: 2100000, guid: c1b1f7dab3889af4787763f1e0de3db7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_6
+    second: {fileID: 2100000, guid: ed006d52890053f49af22bd2b31c25d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_60
+    second: {fileID: 2100000, guid: ab1ecb6ddafa48541bc3d9bfb082aa9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_61
+    second: {fileID: 2100000, guid: 1d7d2da474aa9ca4c806b399b89e01eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_62
+    second: {fileID: 2100000, guid: d2f9f0fba3cd12f48b3a8e772c6076be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_63
+    second: {fileID: 2100000, guid: 31d8c0150f224594fa9265e54165f023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_64
+    second: {fileID: 2100000, guid: 7b5eedf3f5142bd44836c971025da3c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_65
+    second: {fileID: 2100000, guid: e2dcde01e13c74d4bbe9669b59f701ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_7
+    second: {fileID: 2100000, guid: 632a4a38bc0069f469577596330f1f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_8
+    second: {fileID: 2100000, guid: 369f1104cc7d79c45ac44f8a1c7119e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: succulent_euphorbia_mtl_9
+    second: {fileID: 2100000, guid: 2ccfd5cdf3ed5e3448c4772c5cf36654, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
